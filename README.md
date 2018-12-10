@@ -61,41 +61,7 @@ Data extraction : we'll load the dataset and have a first look at it.
 Cleaning : we'll fill in missing values.
 Plotting : we'll create some interesting charts that'll (hopefully) spot correlations and hidden insights out of the data.
 Assumptions : we'll formulate hypotheses from the charts.
-I am assuming that you have your Python3 environment installed.
 
-# 4-1 Load data
-
-# 4-2 shape of data
-
-# 4-3 Head of data
-
-# 4-4 Features
-
-The Survived column is the target variable. If Suvival = 1 the passenger survived, otherwise he's dead. The is the variable we're going to predict.
-
-The other variables describe the passengers. They are the features.
-
-PassengerId: and id given to each traveler on the boat
-Pclass: the passenger class. It has three possible values: 1,2,3 (first, second and third class)
-The Name of the passeger
-The Sex
-The Age
-SibSp: number of siblings and spouses traveling with the passenger
-Parch: number of parents and children traveling with the passenger
-The ticket number
-The ticket Fare
-The cabin number
-The embarkation. This describe three possible areas of the Titanic from which the people embark. Three possible values S,C,Q
-
-# 4-5 Data describe
-
-Pandas allows you to a have a high-level simple statistical description of the numerical features. This can be done using the describe method.
-The count variable shows that 177 values are missing in the Age column. One solution is to fill in the null values with the median age. We could also impute with the mean age but the median is more robust to outliers.
-
-# 4-6 Charts
-
-let's now make some charts.
-let's visualize survival based on the gender
 
 -----------------------------------------
 # 5 - feature engineering
@@ -170,16 +136,23 @@ Feature selection
 Hyperparameters tuning
 Submission
 Blending
-This post can be downloaded as a notebook if you ever want to test and play with it : my github repo
 
-Lots of articles have been written about this challenge, so obviously there is a room for improvement.
+# Help
 
-Here is what I suggest for next steps:
+I hope you have enjoyed reading my python notebook.
 
-Dig more in the data and eventually build new features.
-Try different models : logistic regressions, Gradient Boosted trees, XGboost, ...
-Try ensemble learning techniques (stacking)
-Run auto-ML frameworks
-I would be more than happy if you could find out a way to improve my solution. This could make me update the article and definitely give you credit for that. So feel free to post a comment.
+If you have any problem and question to run notebook please open an issue here in github.
 
------------------------------------------
+for most of the my notebook you need **dataset** as input.
+
+To use the **correct data**, please **download** the dat set from  the **Kaggle** site and put it in your notebook folder.
+
+**Mj Bhamnai**
+
+mohamadjavad.bahmani@gmail.com
+
+ **Have Fun!**
+ 
+> ###### 1. Follow me On [GitHub](https://github.com/mjbahmani/)
+ 
+> ###### 2. Follow me On [Kaggle](https://www.kaggle.com/mjbahmani)
