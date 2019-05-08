@@ -1,3 +1,5 @@
+I have participated in various competitions of Kaggle so far,I intend to share all the code that I have written in this repository.
+
 # Kaggle Competitions
 
 -----------------------------------------
